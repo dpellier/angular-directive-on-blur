@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('onBlurDirective', []);
+angular.module('onBlur', []);
 
-angular.module('onBlurDirective').directive('onBlur', function() {
+angular.module('onBlur').directive('onBlur', function() {
     return {
         restrict: 'A',
         link: function(scope, element) {

@@ -7,7 +7,7 @@ describe('Directive: onBlur', function() {
      * Setup
      */
 
-    beforeEach(module('onBlurDirective'));
+    beforeEach(module('onBlur'));
 
     beforeEach(inject(function($rootScope, $compile) {
         scope = $rootScope;

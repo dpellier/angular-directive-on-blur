@@ -11,6 +11,10 @@ You can add this directive as a dependency with bower :
 
 Or you can just add directly the script in your application.
 
+Include the script and add the dependency into your app.
+```
+angular.module('myModule', ['onBlur']);
+```
 
 Usage
 =====
